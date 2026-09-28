@@ -1,0 +1,9 @@
+timestamp,case_id,source,entity,event,severity
+2026-09-15T08:00:00Z,IR-001,identity,user1@example.invalid,Repeated failed sign-ins,medium
+2026-09-15T08:06:00Z,IR-001,identity,user1@example.invalid,Successful sign-in from same source,high
+2026-09-15T08:15:00Z,IR-001,cloud,user1@example.invalid,Unusual mailbox rule created,high
+2026-09-16T10:00:00Z,IR-002,email,message-1001,Suspicious attachment delivered,medium
+2026-09-16T10:08:00Z,IR-002,endpoint,WKSTN-LAB-02,Office spawned PowerShell,high
+2026-09-16T10:09:00Z,IR-002,network,WKSTN-LAB-02,Outbound connection to 203.0.113.77,high
+2026-09-17T14:00:00Z,IR-003,endpoint,WKSTN-LAB-03,Mass file rename activity,high
+2026-09-17T14:02:00Z,IR-003,endpoint,WKSTN-LAB-03,Suspicious process created ransom note,critical
